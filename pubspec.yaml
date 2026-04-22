@@ -1,0 +1,17 @@
+name: jarvis_app
+description: JARVIS AI Assistant
+version: 4.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  permission_handler: ^11.3.0
+  shared_preferences: ^2.2.3
+
+flutter:
+  uses-material-design: true

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const JARVISApp());
@@ -12,11 +12,7 @@ class JARVISApp extends StatelessWidget {
     return MaterialApp(
       title: 'JARVIS',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
-        primaryColor: Colors.cyan,
-        scaffoldBackgroundColor: const Color(0xFF0A0E21),
-      ),
-      home: const SplashScreen(),
+      home: const HomeScreen(),
     );
   }
 }
